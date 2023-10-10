@@ -85,7 +85,7 @@ nav a {
   background-image: url(/starter/images/02-hero-bg.jpg);
   background-size: cover;
   background-position: center;
-  height: 30vh; /* Adjust the height to your preference */
+  height: 10vh; /* Adjust the height to your preference */
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -95,11 +95,74 @@ nav a {
 .hero-content {
   text-align: right;
   color: #fff;
-  padding: 20px;
-  background-color: #0074D9;
-  border: 2px solid #0074D9;
+  padding: 0px 15px 0px 15px;
+  background-color: #7dcbcddc;
+  border: 2px solid #7dcbcddc;
   position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 20px;
+  bottom: 0px; /* Adjust the distance from the bottom */
+  right: 50px; /* Adjust the distance from the right (smaller positive value) */
+  margin: 20px; /* Adjust the margin as needed */
+}
+
+/* CSS for Two-Column Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr; /* Adjust the column widths as needed */
+  gap: 20px; /* Gap between grid items (adjust as needed) */
+}
+
+.left-column {
+  background-color: #fff;
+  color: #000;
+  text-align: right; /* Align text to the right */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content within the column to the top and bottom */
+  height: 100%; /* Set a fixed height for the left column */
+}
+
+.right-column {
+  background-color: #fff;
+ /* border-left: 2px solid #0074D9;  Add a left border to create the separation line */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Align content within the column to the top and bottom */
+  grid-template-rows: auto 1fr 1fr 1fr;
+}
+
+/* Add styles for the image grid container */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; /* Adjust the gap between images as needed */
+  align-items: center;
+}
+
+/* Style for individual images within the grid */
+.image-grid img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Add styles for individual sections (About Me, Work, Contact) as needed */
+.page-section {
+  margin-bottom: 20px; /* Add margin between sections */
+}
+
+/* Adjust the margin and padding for "Work" and "Contact Me" sections */
+.page-section#work, .page-section#contact {
+  margin-top: 0; /* Reset the margin for these sections */
+  padding: 0; /* Reset the padding for these sections */
+}
+
+/* Make sure the right column content takes full height */
+/* Adjust border and margin for the right column content */
+.page-section p {
+  margin: 20px 0; /* Add vertical margin to create the visual separation */
+  padding-left: 20px; /* Add left padding for content alignment */
+  border-left: 2px solid #0074D9; /* Add a left border to create the visual separation */
 }
