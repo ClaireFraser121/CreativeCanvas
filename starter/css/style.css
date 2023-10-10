@@ -1,11 +1,11 @@
 /* Reset and basic styles */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -24,29 +24,53 @@ p {
 }
 
 /* Header and navigation styles */
+/* Header styles */
 header {
-  background-color: #333;
+  background-color: #37404b;
   color: #fff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
-.logo a {
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the h1 element within the logo */
+.logo h1 {
+  margin: 0;
   color: #fff;
-  text-decoration: none;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
+  padding: 10px 20px;
+  position: relative;
 }
 
+/* Pseudo-element for the left border box */
+.logo h1::before {
+  content: ''; /* Create an empty element for styling */
+  background-color: #0074D9; /* Background color for the box */
+  width: calc(100% + 35px); /* Extend the width to cover the entire text plus padding */
+  height: 100%; /* Cover the full height of the text */
+  position: absolute; /* Absolute positioning */
+  top: 0;
+  left: -20px; /* Move the box to the left by 20px */
+  z-index: -1; /* Set z-index to place it behind the text */
+}
+
+/* Navigation styles */
 nav ul {
   list-style: none;
   padding: 0;
+  display: flex;
 }
 
 nav li {
-  display: inline;
   margin-left: 20px;
 }
 
@@ -57,4 +81,25 @@ nav a {
 }
 
 /* Additional styles for hero banner and page sections go here */
+.hero-banner {
+  background-image: url(/starter/images/02-hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vh; /* Adjust the height to your preference */
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
 
+.hero-content {
+  text-align: right;
+  color: #fff;
+  padding: 20px;
+  background-color: #0074D9;
+  border: 2px solid #0074D9;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
