@@ -124,12 +124,11 @@ nav a {
 
 .right-column {
   background-color: #fff;
- /* border-left: 2px solid #0074D9;  Add a left border to create the separation line */
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* Align content within the column to the top and bottom */
-  grid-template-rows: auto 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr; /* Define the grid rows for the right column */
 }
 
 /* Add styles for the image grid container */
@@ -146,7 +145,6 @@ nav a {
   max-width: 100%;
   height: auto;
 }
-
 
 /* Add styles for individual sections (About Me, Work, Contact) as needed */
 .page-section {
