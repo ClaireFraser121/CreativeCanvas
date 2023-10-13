@@ -49,8 +49,10 @@ header {
   font-weight: bold;
   padding: 10px 20px;
   position: relative;
-  background-color: #0074D9;
+  background: radial-gradient(circle, #0074D9, transparent);
 }
+
+
 
 /* Pseudo-element for the left border box */
 .logo h1::before {
@@ -108,6 +110,7 @@ nav a {
   bottom: 0px; /* Adjust the distance from the bottom */
   right: 50px; /* Adjust the distance from the right (smaller positive value) */
   margin: 20px; /* Adjust the margin as needed */
+  font-size: 2em; /* Adjust the size as needed */
 }
 
 .page-wrapper {
@@ -188,11 +191,15 @@ grid-row: 1 / 1;
 }
 
 /* Style for individual images within the grid */
-/* Style for individual images within the grid */
 .image-container img {
   width: 100%; /* Make sure the image fills its container horizontally */
-  height: 300px; /* Set a fixed height for uniformity, adjust the value as needed */
+  height: 200px; /* Set a fixed height for uniformity, adjust the value as needed */
   object-fit: cover;
+  border-radius: 8px; /* Add border-radius to create rounded corners */
+  transition: all 0.5s ease-in-out; /* Apply the transition effect to all properties */
+
+  /* Add box-shadow properties for the hover effect */
+  box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 0), 0 0 15px rgba(232, 102, 236, 0);
 }
 
 /* Style for the h3 within the image container */
@@ -206,6 +213,14 @@ grid-row: 1 / 1;
   margin: 0;
   font-size: 18px;
 }
+
+/* Apply the box shadow effect on hover */
+/* Apply the box shadow effect on hover with the color #7dcbcddc */
+.image-container:hover img {
+  box-shadow: inset 0px 0px 8px rgba(125, 203, 205, 1), 0 0 15px rgba(125, 203, 205, 1);
+}
+
+
 
 /* Adjust the height for the "Surf" image to take up the top two rows */
 .image-container.first-image img {
@@ -221,12 +236,6 @@ grid-row: 1 / 1;
 }
 
 
-
-/* .image-grid:nth-child(2) {
-  grid-column: 1 / 5;
-  grid-row: 3 / 4;
-} */
-
 /* Add styles for individual sections (About Me, Work, Contact) as needed */
 .page-section {
   margin-bottom: 20px; /* Add margin between sections */
@@ -235,6 +244,7 @@ grid-row: 1 / 1;
 /* Adjust the margin and padding for "Work" and "Contact Me" sections */
 .page-section#work, .page-section#contact {
   margin-top: 0; /* Reset the margin for these sections */
+ 
   
 }
 
@@ -245,3 +255,46 @@ grid-row: 1 / 1;
   padding-left: 20px; /* Add left padding for content alignment */
   
 }
+/* Style for the "Contact Me" section */
+.page-section.contact {
+  text-align: center;
+}
+
+/* Style for the contact links */
+.contact-links {
+  grid-column: 2 ;
+  display: flex;
+  justify-content: space-between; /* Spread out the icons horizontally */
+  padding: 20px 0; /* Add padding to separate the icons from the top and bottom */
+}
+
+.contact-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0074D9;
+  padding: 20px 20px 20px 20px;
+}
+
+/* Add this CSS to increase the size of the symbols in the contact links */
+.contact-links i {
+  font-size: 40px; /* Adjust the size as needed */
+}
+
+.contact-links a:hover {
+  color: #1256ac;
+}
+
+/* Add this CSS for the main container to make the footer stay at the bottom */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the content takes up at least the full viewport height */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #37404b;
+  color: #fff;
+}
+
