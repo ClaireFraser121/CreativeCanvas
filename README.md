@@ -36,7 +36,7 @@ Getting started with my portfolio is straightforward. You don't need to install 
 
 2. **Visit the Portfolio**: Go to the following URL in your web browser:
 
-https://clairefraser121.github.io/CreativeCanvas/
+      https://clairefraser121.github.io/CreativeCanvas/
 
 3. **Explore**: Once you've accessed the portfolio, you can start exploring. Use the navigation menu to learn about me, explore my work, and get in touch. Click on project images to visit the deployed versions of specific projects.
 
