@@ -83,7 +83,7 @@ I value your feedback and any inquiries you might have. If you'd like to get in 
 
 I'll be continuously updating this portfolio with new projects as I progress through my studies. I encourage you to return periodically to see the latest additions and follow my journey.
 
-   ![Portfolio Updates](/images/creativecanvas.png) 
+   ![Portfolio Updates](/images/creativeCanvas.png) 
 
    https://clairefraser121.github.io/CreativeCanvas/
 
