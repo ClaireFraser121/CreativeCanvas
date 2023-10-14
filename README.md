@@ -128,11 +128,6 @@ This project is licensed under the [MIT License](LICENSE).
 ![Static Badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
 ## Tests
 
 There are no tests for this app
