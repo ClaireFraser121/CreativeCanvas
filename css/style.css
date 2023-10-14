@@ -155,10 +155,11 @@ nav a {
 }
 
 .section-header {
+  padding-right: 10px;
   background-color: #fff;
   color: #000;
   text-align: right;/* Align text to the right */
-  padding: 20px;
+  /* padding: 20px; */
   border-right: 2px solid navy;
 }
 
@@ -314,7 +315,7 @@ nav a {
 
 /* Style for the "Contact Me" section */
 .page-section.contact {
-  text-align: center;
+  text-align: right;
 }
 
 /* Style for the contact links */
