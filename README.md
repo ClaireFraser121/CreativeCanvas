@@ -30,9 +30,19 @@ Claire Fraser
 
 ## Installation
 
-There is no installation needed for the app
-Please follow link to Horiseon Marketing - SEO, Online Reputation Management, and Social Media Marketing Services website
-https://clairefraser121.github.io/horiseon-accessibility-optimization/
+Getting started with my portfolio is straightforward. You don't need to install anything; just follow these simple steps:
+
+1. **Access the Portfolio**: Open your preferred web browser.
+
+2. **Visit the Portfolio**: Go to the following URL in your web browser:
+
+https://clairefraser121.github.io/CreativeCanvas/
+
+3. **Explore**: Once you've accessed the portfolio, you can start exploring. Use the navigation menu to learn about me, explore my work, and get in touch. Click on project images to visit the deployed versions of specific projects.
+
+That's it! You're all set to explore my portfolio and discover my work and skills.
+
+
 
 ## Usage 
 
