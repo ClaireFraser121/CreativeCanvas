@@ -81,7 +81,7 @@ nav a {
 
 /* Style for the hero banner */
 .hero-banner {
-  background-image: url(./images/02-hero-bg.jpg);
+  background-image: url(/images/02-hero-bg.jpg);
   background-size: cover;
   background-position: center;
   height: 10vh;
@@ -134,7 +134,7 @@ nav a {
 }
 
 .page-wrapper {
-  margin-right: auto;
+  margin-right: 10%;
   margin-left: auto;
   max-width: 100%;
   padding-top: 10px;
@@ -151,7 +151,7 @@ nav a {
   /* Adjust the column widths as needed */
   gap: 20px;
   /* Gap between grid items (adjust as needed) */
-  padding: 0 40px;
+  /* padding: 0 40px; */
 }
 
 .section-header {
