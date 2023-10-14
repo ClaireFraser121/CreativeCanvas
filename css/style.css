@@ -84,7 +84,7 @@ nav a {
   background-image: url(../images/02-hero-bg.jpg);
   background-size: cover;
   background-position: center;
-  height: 10vh;
+  height: 20vh;
   display: flex;
   align-items: center;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@ nav a {
   overflow: hidden;
   position: absolute;
   /* Position the circular image absolutely */
-  top: 130px;
+  top: 200px;
   /* Adjust the top value to move it up or down */
   left: 50px;
   /* Adjust the right value to move it left or right */
