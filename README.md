@@ -45,14 +45,14 @@ Welcome to my Portfolio Showcase! As a student in the process of building my por
 
 1. **Landing Page:** When you first arrive on the portfolio, you'll land on the main page where you'll find my name and a recent photo or avatar. This is the starting point for your exploration.
 
-   ![Landing Page](/images/Claire-Fraser-Web-Developer%20(1).png)
+   ![Landing Page](/images/landingPage.png)
 
 2. **Navigation:** At the top of the page, you'll see a navigation menu that provides links to three main sections:
    - "About Me": Click here to learn more about me, my background, and aspirations.
    - "My Work": Explore the projects I've worked on, with images and titles.
    - "Contact Me": If you'd like to get in touch with me, this section provides information on how to do so.
 
-   ![Navigation Menu](/images/Desktop-screenshot.png)
+   ![Navigation Menu](/images/navURLaboutMe.png)
 
 3. **Scrolling:** To access a specific section, simply click on the corresponding link in the navigation menu. The design ensures that the page scrolls smoothly to your selected section.
 
@@ -72,7 +72,7 @@ Welcome to my Portfolio Showcase! As a student in the process of building my por
 
 - I've designed this portfolio to be responsive and adaptable. Whether you're viewing it on a large desktop screen or a mobile device, the layout adjusts to ensure an optimal viewing experience.
 
-   ![Responsive Design](/images/responsive%20(3).png)
+   ![Responsive Design](/images/responsive.png)
 
 ## Providing Feedback
 
