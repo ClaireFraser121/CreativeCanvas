@@ -81,7 +81,7 @@ nav a {
 
 /* Style for the hero banner */
 .hero-banner {
-  background-image: url(/images/02-hero-bg.jpg);
+  background-image: url(./images/02-hero-bg.jpg);
   background-size: cover;
   background-position: center;
   height: 10vh;
