@@ -12,8 +12,6 @@ This is my submission for the Unit 2 Portfolio Challenge. The challenge involves
 In this challenge, I've applied core skills learned during the course, such as flexbox, media queries, and CSS variables, to create a responsive portfolio page. The page presents my name, a recent photo or avatar, and links to sections about me, my work, and how to contact me. The navigation allows users to scroll to specific sections, and the "Work" section contains titled images of my applications, with the first application's image being larger. Users can click on the application images to access the deployed applications. Additionally, the layout is responsive and adapts to various screen sizes.
 The appearance and functionality of the web application closely resemble the provided mock-up. I've customized the colours and images to personalize the design.
 
-![Portfolio Demo](./images/01-css-challenge-demo.gif)
-
 Please feel free to explore my portfolio and thank you for reviewing my work!
 
 Best regards,
@@ -47,46 +45,50 @@ Welcome to my Portfolio Showcase! As a student in the process of building my por
 
 1. **Landing Page:** When you first arrive on the portfolio, you'll land on the main page where you'll find my name and a recent photo or avatar. This is the starting point for your exploration.
 
-   ![Landing Page](insert_image_url_here)
+   ![Landing Page](/images/Claire-Fraser-Web-Developer%20(1).png)
 
 2. **Navigation:** At the top of the page, you'll see a navigation menu that provides links to three main sections:
    - "About Me": Click here to learn more about me, my background, and aspirations.
    - "My Work": Explore the projects I've worked on, with images and titles.
    - "Contact Me": If you'd like to get in touch with me, this section provides information on how to do so.
 
-   ![Navigation Menu](insert_image_url_here)
+   ![Navigation Menu](/images/Desktop-screenshot.png)
 
 3. **Scrolling:** To access a specific section, simply click on the corresponding link in the navigation menu. The design ensures that the page scrolls smoothly to your selected section.
 
-   ![Scrolling Feature](insert_image_url_here)
+   ![Scrolling Feature](/images/navBar.png)
 
 ## Exploring My Work
 
 - **Work Showcase:** The "My Work" section is where I showcase the projects I've worked on. You'll find titled images of these projects here, with a larger image for the first project for emphasis.
 
-   ![Work Showcase](insert_image_url_here)
+   ![Work Showcase](/images/workSection.png)
 
 - **Accessing Projects:** If you're interested in exploring any of these projects, just click on the respective project image. This will take you directly to the deployed version of that project.
 
-   ![Project Access](insert_image_url_here)
+   ![Project Access](/images/my-work.png)
 
 ## Responsive Design
 
 - I've designed this portfolio to be responsive and adaptable. Whether you're viewing it on a large desktop screen or a mobile device, the layout adjusts to ensure an optimal viewing experience.
 
-   ![Responsive Design](insert_image_url_here)
+   ![Responsive Design](/images/responsive%20(3).png)
 
 ## Providing Feedback
 
 I value your feedback and any inquiries you might have. If you'd like to get in touch or share your thoughts, please navigate to the "Contact Me" section. I'm eager to hear from you.
 
-   ![Contact Me Section](insert_image_url_here)
+   ![Contact Me Section](/images/contact.png)
 
 ## Stay Updated
 
 I'll be continuously updating this portfolio with new projects as I progress through my studies. I encourage you to return periodically to see the latest additions and follow my journey.
 
-   ![Portfolio Updates](insert_image_url_here)
+   ![Portfolio Updates](/images/creativecanvas.png) 
+
+   https://clairefraser121.github.io/CreativeCanvas/
+
+   https://github.com/ClaireFraser121/CreativeCanvas
 
 Thank you for visiting my Portfolio Showcase. I hope you find it engaging and informative as you explore my skills and projects.
 
